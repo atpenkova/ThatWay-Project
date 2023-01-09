@@ -7,7 +7,13 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+
+nav ul li:hover{
+    border-bottom: 3px solid #b36b6b;
 }
 li a{
     text-decoration: none;
@@ -18,12 +24,24 @@ li a{
 header{
     position: fixed;
     display: flex;
-    justify-content: center;
+    box-sizing: border-box;
     height: 100px;
     left: 0px;
     right: 0px;
     background: #FFFF;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 5px 0px
+}
+.logo{
+    display: block;
+    position: relative;
+    left: 50px;
+}
+.menurow{
+    display: block;
+    position: absolute;
+    right: 300px;
+    text-align: right;
+
 }
 .rights{
     color: black;
@@ -35,3 +53,27 @@ header{
 .ThatWay{
     color: #b36b6b;
 }
+.title-services{
+    box-sizing: border-box;
+    margin: auto;
+    width: 30%;
+}
+
+#text-services-1{
+    text-transform: uppercase;
+    color: #b36b6b;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 35px;
+}
+#text-services-2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(93, 60, 60);
+    margin: 0;
+}
+.photo-item{
+    display: inline-flex;
+    flex-direction: row;
+}
+
