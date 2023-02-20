@@ -1,0 +1,129 @@
+body{
+    margin: 0 auto;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+.rights{
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+.ThatWay{
+    color: #b36b6b;
+}
+nav ul li:hover{
+    border-bottom: 2px solid #b36b6b;
+}
+li a{
+    text-decoration: none;
+    color: #b36b6b;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    background: #FFFF;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 5px 0px;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menurow ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 3vw;
+}
+.menurow ul li{
+    display: flex;
+    text-decoration: none;
+}
+.services-text h1{
+    color: #b36b6b;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+.services-text{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services-text ::after{
+    content: "";
+    display: flex;
+    margin: auto;
+    width: 160px;
+    height: 1px;
+    background: rgb(188, 108, 108);
+    z-index: 1;
+    margin-top: 10px;
+}
+.services-photos{
+    width: 25%;
+    height: 60%;
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0%, 100% 83%, 83% 100%, 0% 100%, 0% 86%, 0% 15%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0%, 100% 83%, 83% 100%, 0% 100%, 0% 86%, 0% 15%);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.services-title{
+    font-size: 25px;
+    color: #a76e6e;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+.services-info{
+    color: grey;
+    text-align: center;
+    text-shadow: #a5a5a5;
+    font-size: 20px;
+    width: 700px;
+    line-height: 1.6;
+}
+.services-page div{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.serv-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}

@@ -1,0 +1,125 @@
+body{
+    margin: 0 auto;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+.rights{
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+.ThatWay{
+    color: #b36b6b;
+}
+nav ul li:hover{
+    border-bottom: 2px solid #b36b6b;
+}
+li a{
+    text-decoration: none;
+    color: #b36b6b;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    background: #FFFF;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 5px 0px;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menurow ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 3vw;
+}
+.menurow ul li{
+    display: flex;
+    text-decoration: none;
+}
+.aboutus-cover{
+    border-radius: 0px 0px 400px 400px;
+    padding-bottom: 65px;
+}
+.aboutus-text h1{
+    color: #b36b6b;
+    font-size: 42px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.aboutus-text{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.aboutus-text ::before{
+    content: "";
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 1px;
+    background: rgb(188, 108, 108);
+    z-index: 1;
+    margin-bottom: 35px;
+}
+.aboutus-info{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #b36b6b;
+}
+.aboutus-info p{
+    font-size: 23px;
+    font-weight: 300;
+    color: rgb(131, 126, 126);
+    line-height: 30px;
+    text-align: center;
+    padding: 13px;
+}
+.aboutus-store{
+    display: flex;
+    margin: auto;
+    padding: 60px;
+}
+.aboutus-store img{
+    margin: auto;
+    height: 60vh;
+    width: 30vw;
+    /* border: solid rgb(188, 108, 108) 2px; */
+
+}
+
